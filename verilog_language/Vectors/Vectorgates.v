@@ -11,5 +11,6 @@ module top_module(
 
 	assign out_not[2:0] = ~a;	
 	assign out_not[5:3] = ~b;	
+	//or assign out_not = {~b, ~a};
 	
 endmodule
